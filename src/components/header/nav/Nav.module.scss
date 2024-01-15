@@ -1,0 +1,40 @@
+.nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      margin-left: 20px;
+      font-size: 20px;
+
+      a {
+        color: black;
+
+        & :hover {
+          color: var(--second-color);
+          cursor: pointer;
+          transition: 0.3s all ease;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      li {
+        font-size: 25px;
+      }
+    }
+
+    .nav_icon {
+    }
+
+    .nav_sign_out {
+      cursor: pointer;
+
+      &:hover {
+        color: var(--hover-color);
+        cursor: pointer;
+        transition: 0.3s all ease;
+      }
+    }
+  }
+}
