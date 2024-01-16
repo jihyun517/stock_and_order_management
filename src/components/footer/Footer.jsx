@@ -4,8 +4,8 @@ import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className={styles.footer}>
+    <footer className={styles.footer}>
+      <div className="container">
         <div className={styles.contacts}>
           <a href="https://github.com">
             <BsGithub />
